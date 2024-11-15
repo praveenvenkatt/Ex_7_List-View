@@ -21,16 +21,12 @@ Step 6: Get contacts details and Display details give in MainActivity file.
 Step 7: Save and run the application.
 
 ## PROGRAM:
-
+```
 Program to print the list of item.
-
 Developed by: Praveen V
-
-Registeration Number : 212222040121
-
-
-
-## ACTIVITY_MAIN.XML
+egisteration Number :212222040121
+```
+## activity_main.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -46,25 +42,28 @@ Registeration Number : 212222040121
         android:layout_height="fill_parent"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
 ```
-## MYLIST.XML
+## mylist.xml:
 ```
 <?xml version="1.0" encoding="utf-8"?>
 
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
-android:id="@+id/textView"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:text="Medium Text"
-android:textStyle="bold"
-android:textAppearance="?android:attr/textAppearanceMedium"
-android:layout_marginLeft="10dp"
-android:layout_marginTop="5dp"
-android:padding="2dp"
-android:textColor="#4d4d4d"
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Medium Text"
+    android:textStyle="bold"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:padding="2dp"
+    android:textColor="#4d4d4d"
     />
 ```
-## STRINGS.XML
+## strings.xml:
 ```
 <resources>
     <string name="app_name">ListView</string>
@@ -83,10 +82,13 @@ android:textColor="#4d4d4d"
         <item>Perl</item>
     </string-array>
 </resources>
+
+
+
 ```
-## MAINACTIVITY.JAVA
+## MainActivity.java:
 ```
-package com.example.ex_7_listview;
+package com.example.exp7;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
@@ -126,11 +128,39 @@ public class MainActivity extends AppCompatActivity {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
-## OUTPUT
-![image](https://github.com/user-attachments/assets/b11c0fcb-c324-45bb-85b2-3ec151641abb)
+## OUTPUT:
+<img src="https://github.com/user-attachments/assets/f177fe41-9d54-494d-847c-2a4bc88de12d" alt="Image 1" width="300">
+<img src="https://github.com/user-attachments/assets/3527d49c-5b57-4f0f-96c4-28f35524229f" alt="Image 2" width="300">
 
 
 ## RESULT
-Thus a Simple Android Application to create and develop the application to display the country name with image using list view in android studio is developed and executed successfully.
-
+Thus a Simple Android Application to create and develop the application to display the country name with image using list view in android studio is developed and executed successfully
